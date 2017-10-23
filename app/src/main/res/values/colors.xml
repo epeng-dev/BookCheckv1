@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="Black">#000000</color>
+    <color name="Cyan">#6400bebe</color>
+    <color name="Purple">#c8c420ff</color>
+    <color name="morePurple">	#46238e</color>
+    <color name="Appthemegreen">#6B8E23</color>
+    <color name="Ocecn">#9600919f</color>
+    <color name="Littleblue">#c8689cb1</color>
+    <color name="Scarlet">#96fd2f1c</color>
+    <color name="Littlebrown">#96d2b48c</color>
+    <color name="White">#FFFFFF</color>
+</resources>

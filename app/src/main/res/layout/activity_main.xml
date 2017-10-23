@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:weightSum="2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_weight="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxHeight="100sp"
+                android:maxWidth="200sp"
+                android:background="@color/Black"
+                android:id="@+id/mainImage"
+                android:src="@drawable/main"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:weightSum="4">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="추천 도서 목록"
+            android:textSize="30sp"
+            android:textColor="@color/White"
+            android:id="@+id/bRecommend"
+            android:theme="@style/myButton"
+            android:background="@color/Ocecn"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="간편 도서 대출"
+            android:textSize="30sp"
+            android:textColor="@color/White"
+            android:id="@+id/bIntroduce"
+            android:theme="@style/myButton"
+            android:background="@color/Littleblue"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:textSize="30sp"
+            android:id="@+id/bSearch"
+            android:theme="@style/myButton"
+            android:textColor="@color/White"
+            android:background="@color/Scarlet"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LogOut"
+            android:textSize="30sp"
+            android:id="@+id/bLogOut"
+            android:theme="@style/myButton"
+            android:textColor="@color/White"
+            android:background="@color/Littlebrown"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>
